@@ -7,7 +7,7 @@ goals:
 
 √ * turn box to photo
 
-* turn photo to slideshow
+√ * turn photo to slideshow
  
 √ * have grid of 16 photos (all resizable) 
 
