@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jQuery UI Resizable - Default functionality</title>
+  <title>jQuery UI Resizable </title>
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
@@ -10,24 +10,37 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <style>
-  #resizable { width: 150px; height: 150px; padding: 0.5em; }
-  #resizable h3 { text-align: center; margin: 0; }
-  </style>
-
   <script>
-  $(function() {
-    $( "#resizable" ).resizable();
-  });
+    $(function() {
+      $( ".resizable" ).resizable();
+    });
+    $(function() {
+      $( "#sortable" ).sortable();
+      $( "#sortable" ).disableSelection();
+    });
   </script>
-  
 </head>
+
 <body>
- 
-<div id="resizable" class="ui-widget-content">
-  <h3 class="ui-widget-header">Resizable</h3>
-</div>
- 
- 
+
+<ul id="sortable">
+
+  <li class="resizable"><img src="http://i.imgur.com/kBXRjmt.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/6uhJeyC.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/myQn05o.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/kBXRjmt.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/6uhJeyC.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/myQn05o.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/kBXRjmt.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/6uhJeyC.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/myQn05o.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/kBXRjmt.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/6uhJeyC.png" width="100%" height="100%"></li>
+  <li class="resizable"><img src="http://i.imgur.com/myQn05o.png" width="100%" height="100%"></li>
+  
+</ul>
+
 </body>
 </html>
+
+ 
