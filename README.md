@@ -1,5 +1,5 @@
 # image-flex-slideshow-experiment
-![app](http://i.imgur.com/1pWLyEc.png)
+![app](http://i.imgur.com/1pTkyqd.png)
 
 goals:
 
