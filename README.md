@@ -11,8 +11,10 @@ goals:
  
 √ * have grid of 16 photos (all resizable) 
 
-* incorporate api to pull photos for slideshow
+√ * incorporate api to pull photos for slideshow
  
+* fix formatting with api usage
+
 * randomize play of slideshow
  
 * if photo is added during user viewing site, full screen the photo for a few seconds
